@@ -14,7 +14,7 @@ from service.models import Service
 
 # print(sys.path)
 def userform(request):
-        return render(request,"userform.html")
+        return render(request,"index.html")
     
     # ServiceData=Service.objects.all().order_by("-id") # Order a Quary
 '''ServiceData=Service.objects.all().order_by("id")#Applying Limiting Quary. -ev iundexes are not allowed.
